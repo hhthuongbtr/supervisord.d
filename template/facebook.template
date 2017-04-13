@@ -1,0 +1,4 @@
+[program:name]
+command=ffmpeg -i udp://ip -vcodec copy -acodec aac -ab 192k -strict -2 -preset fast -f flv rtmp://rtmp-api.facebook.com:80/rtmp/streamkey
+redirect stderr=true
+stdout_logfile= /var/log/supervisor/name.log

@@ -1,0 +1,4 @@
+[program:name]
+command=ffmpeg -i udp://ip -c:v copy -c:a copy -bsf:a aac_adtstoasc -f flv rtmp://a.rtmp.youtube.com/live2/streamkey
+redirect_stderr=true
+stdout_logfile= /var/log/supervisor/name.log

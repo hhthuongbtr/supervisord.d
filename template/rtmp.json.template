@@ -1,0 +1,6 @@
+{
+    "binary_system": "ffmpeg",
+    "encode": "-vcodec copy -acodec aac -strict -2 -ar 48000 -b:a 128k -f flv",
+    "ip": "14.161.5.88:1935/live/liveStream",
+    "domain": "118.69.132.214:1935/Lasta"
+}

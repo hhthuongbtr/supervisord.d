@@ -1,0 +1,4 @@
+[program:[name]]
+command=[binary_system] -i "rtmp://[ip]" [encode] rtmp://[domain]
+redirect stderr=true
+stdout_logfile= /var/log/supervisor/[name].log

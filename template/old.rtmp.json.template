@@ -1,0 +1,6 @@
+{
+    "binary_system": "ffmpeg",
+    "encode": "-vcodec libx264 -s 1920x1080 -b:v 4000k -minrate 4000k -maxrate 4000k -muxrate 4500k -bufsize 1000k -nal-hrd cbr -acodec aac -strict -2 -ar 48000 -b:a 192k -packetsize 188 -f flv",
+    "ip": "225.1.1.51:30120",
+    "domain": "123.29.67.66:1935/live/kenh_20"
+}
